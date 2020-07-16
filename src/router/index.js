@@ -15,6 +15,10 @@ const router = new VueRouter({
       path: "/",
       component: () => import("../pages/login/login.vue"),
     },
+    {
+      path: "/about",
+      component: () => import("../pages/about/about.vue"),
+    },
   ],
 });
 

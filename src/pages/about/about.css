@@ -1,0 +1,7 @@
+.theme--light.v-stepper
+  .v-stepper__step:not(.v-stepper__step--active):not(.v-stepper__step--complete):not(.v-stepper__step--error)
+  .v-stepper__step__step {
+  background: none;
+  border: 1.5px solid #1972f1;
+  color: #1972f1;
+}

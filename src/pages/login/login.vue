@@ -40,7 +40,7 @@
             <p class="grey--text font-weight-light">
               Your data will be located in
               <span>United States &nbsp;&nbsp;</span>
-              <a href="#" class="text-decoration-none green--text font-weight-bold">Change</a>
+              <a href="#" class="text-decoration-none green--text font-weight-bold">change</a>
             </p>
             <v-btn
               large
