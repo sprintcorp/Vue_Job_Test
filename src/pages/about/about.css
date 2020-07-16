@@ -5,3 +5,7 @@
   border: 1.5px solid #1972f1;
   color: #1972f1;
 }
+
+.bg-color {
+  background-color: lightgray;
+}

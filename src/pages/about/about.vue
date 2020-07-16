@@ -13,7 +13,7 @@
         <v-stepper-step :complete="e6 > 5" step="5">PERSONAL DETAILS</v-stepper-step>
       </v-col>
       <v-col cols="12" md="9">
-        <v-stepper-content step="5">
+        <v-stepper-content step="5" class="bg-color">
           <v-row align="center" justify="center">
             <v-col cols="12" md="8">
               <h2>A bit about you</h2>
@@ -83,7 +83,7 @@
           </v-row>
         </v-stepper-content>
 
-        <v-stepper-content step="6">
+        <v-stepper-content step="6" class="bg-color">
           <v-row align="center" justify="center">
             <v-col cols="12" md="8">
               <h2>Mailing Address</h2>
