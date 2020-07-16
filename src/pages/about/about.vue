@@ -16,7 +16,7 @@
         <v-stepper-content step="5">
           <v-row align="center" justify="center">
             <v-col cols="12" md="8">
-              <h4>A bit about you</h4>
+              <h2>A bit about you</h2>
               <p>Share some personal information about you</p>
             </v-col>
           </v-row>
@@ -86,7 +86,7 @@
         <v-stepper-content step="6">
           <v-row align="center" justify="center">
             <v-col cols="12" md="8">
-              <h4>Mailing Address</h4>
+              <h2>Mailing Address</h2>
               <p>Enter Your communication details</p>
             </v-col>
           </v-row>
