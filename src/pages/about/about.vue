@@ -14,8 +14,12 @@
       </v-col>
       <v-col cols="12" md="9">
         <v-stepper-content step="5">
-          <h4>A bit about you</h4>
-          <p>Share some personal information about you</p>
+          <v-row align="center" justify="center">
+            <v-col cols="12" md="8">
+              <h4>A bit about you</h4>
+              <p>Share some personal information about you</p>
+            </v-col>
+          </v-row>
           <v-row>
             <v-col cols="12">
               <v-row align="center" justify="center">
@@ -80,8 +84,12 @@
         </v-stepper-content>
 
         <v-stepper-content step="6">
-          <h4>Mailing Address</h4>
-          <p>Enter Your communication details</p>
+          <v-row align="center" justify="center">
+            <v-col cols="12" md="8">
+              <h4>Mailing Address</h4>
+              <p>Enter Your communication details</p>
+            </v-col>
+          </v-row>
           <v-row>
             <v-col cols="12">
               <v-row align="center" justify="center">
@@ -119,13 +127,17 @@
                   <i class="text--white mdi mdi-arrow-right-bold"></i>
                 </v-btn>
               </div>
-              <v-alert
-                class="mt-4 d-flex justify-space-around"
-                dense
-                outlined
-                icon="mdi-clipboard-text-outline"
-                type="info"
-              >You can enter an address you want to and this doesnt have to be in US</v-alert>
+              <v-row align="center" justify="center">
+                <v-col cols="12" md="8">
+                  <v-alert
+                    class="mt-4 d-flex justify-space-around"
+                    dense
+                    outlined
+                    icon="mdi-clipboard-text-outline"
+                    type="info"
+                  >You can enter an address you want to and this doesnt have to be in US</v-alert>
+                </v-col>
+              </v-row>
             </v-col>
           </v-row>
         </v-stepper-content>
